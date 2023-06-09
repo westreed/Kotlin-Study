@@ -1,8 +1,10 @@
 
 fun main(args: Array<String>) {
 //    study()
-    val obj = ClassStudy("JSH")
+    val obj = ClassStudy("Jang", "SH")
     obj.print()
-    obj.name = "Hello"
     println(obj.name)
+    val obj2 = ClassStudy("JSH")
+    obj2.print()
+    println(obj2.name)
 }
