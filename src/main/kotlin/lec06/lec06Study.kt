@@ -8,6 +8,7 @@ fun main() {
         println(number)
     }
 
+    // 1씩 올라가는 경우!
     for (i in 1..3) {
         println(i)
     }
