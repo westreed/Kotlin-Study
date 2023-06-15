@@ -36,10 +36,4 @@ fun main() {
         println(i)
         i++
     }
-
-    var j = 0
-    while (j in 0..10){
-        println(j)
-        j++
-    }
 }
