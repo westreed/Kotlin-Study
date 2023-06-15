@@ -18,7 +18,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           # Optional
-          LANGUAGE: korea
+          LANGUAGE: korean
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: gpt-turbo-3.5-0613
           PROMPT:
