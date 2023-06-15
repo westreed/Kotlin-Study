@@ -21,7 +21,7 @@ jobs:
           LANGUAGE: korean
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: gpt-turbo-3.5-0613
-          PROMPT:
+          PROMPT: "Request된 코드를 평가해주시고, 한국어로 답변해주세요."
           top_p: 1
           temperature: 1
           max_tokens: 10000
